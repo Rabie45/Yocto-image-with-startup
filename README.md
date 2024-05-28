@@ -1,5 +1,4 @@
-# Yocto-image-with-startup 
-## System V
+# Yocto-image-with-startup-SystemV
 To create script start with project beginning 
 
 ## Steps 
