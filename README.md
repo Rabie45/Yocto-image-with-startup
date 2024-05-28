@@ -27,7 +27,8 @@ do_install(){
     install -m 0755 ${WORKDIR}/startup-sv.sh ${D}${sysconfdir}/init.d/start-python
     install -d ${D}${bindir}
     install -m 0755 hello-startup.py ${D}${bindir}
-} ```
+}
+```
  - Give the bash script to switch about parameter u based to the script
  - And the python  script it self
  - RDEPENDS:${PN} In Yocto, RDEPENDS is used to specify runtime dependencies for a package. To ensure that your package depends on Python 3 at runtime, you can use the RDEPENDS variable in your recipe file
